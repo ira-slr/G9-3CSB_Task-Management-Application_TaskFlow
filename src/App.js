@@ -8,6 +8,10 @@ function App() {
   return (
     <>
       <Navbar />
+      <Routes>
+        <Route path="/" element={<TaskListView/>} />
+        <Route path="/add" element={<AddTaskView/>} />
+      </Routes>
     </>
   );
 }
