@@ -1,6 +1,11 @@
-function TaskListView(){
+import TaskList from "../components/TaskList"
+
+function TaskListView({tasks, deleteTask}){
     return(
-        <h1> Task List Template</h1>
+        <>
+            <TaskList tasks={tasks} deleteTask={deleteTask}/>
+        </>
+        
     )
 }
 
