@@ -1,6 +1,11 @@
-function AddTaskView(){
+import AddTaskForm from "../components/AddTaskForm"
+
+function AddTaskView({addTask}){
     return(
-        <h1> Add Task Template </h1>
+        <>
+            <AddTaskForm addTask={addTask}/>
+        </>
+       
     )
 }
 
