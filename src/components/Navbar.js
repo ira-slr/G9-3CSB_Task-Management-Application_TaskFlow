@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// Sencil, Gladwynigt
+// Sencil, Gladwynigttt
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
